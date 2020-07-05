@@ -96,7 +96,7 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  background-color: #2b2d2f;
   height: 100%;
   width: 100%;
 }
@@ -104,33 +104,47 @@ html {
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 0 2em;
-  font-size: 1.25em;
+  font-size: .9em;
   height: 100%;
   color: #fff;
 }
 
 header,
 footer {
-  background-color: #222;
+  background-color: #2b2d2f;
   height: 80px;
   width: 100%;
 }
-
+h1 {
+    font-family: Georgia, serif;
+    font-size: 4em;
+    padding-top: .5em;
+}
 main {
-  background-color: #ccc;
+  background-color: #2b2d2f;
   height: 250px;
   width: 100%;
 
 }
-
-header,
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
 footer,
 main {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2em;
+    font-weight: normal;
+}
+#main-about {
+    border-bottom: 1px solid #fff;
+}
 .flex-container {
     display: flex;
     justify-content: center;
@@ -143,14 +157,21 @@ main {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  background-color: #2b2d2f;
   width: 30%;
   height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: .7em;
+  margin-bottom: 1.5em;
 }
-
+#div-1, #div-2 {
+    border-right: 1px solid #fff;
+}
+footer {
+    border-top: 1px solid #fff;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
